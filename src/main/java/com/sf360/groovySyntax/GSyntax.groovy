@@ -16,7 +16,9 @@ class GSyntax extends Script {
 	}
 
 	def run() {
-		println 'Groovy world!'
+		println 'Hello, Groovy world!'
+		
+		println 'GroovyTest Project uses git to control all the flows!'
 		/*
 		 def action = this.&describe
 		 def list = [
