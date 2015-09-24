@@ -10,7 +10,7 @@ class ClosureTest {
 		
 		def personName = {e -> println "cicked on $e.name"}
 		
-		User currentUser = new User("Joseph", 19)
+		User currentUser = new User("New Branch 2", 19)
 		
 		personName(currentUser)
 	
